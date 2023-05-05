@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+body{
+    background-color: rgb(205,205,205);
+}
+nav{
+    padding:10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+}
+.input-container > input{
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+}
+ button{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.button-container{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.table-container{
+    background-color: rgb(217,217,217);
+    border: 1px solid black;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .wide-col {
+    width: 40%;
+  }
+  .narrow-col {
+    width: 5%;
+  }
+button:hover{
+    cursor: pointer;
+}

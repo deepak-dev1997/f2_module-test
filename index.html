@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Module Test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <link rel="stylesheet" href="index.css">
+    <nav>
+        <p>Student Portal</p>
+    </nav>
+    <div class="input-container">
+        <input type="text" id="searchinput" placeholder="Search">
+        <button id="searchbutton">Search</button>
+    </div>
+    <div class="button-container">
+        <button class="sortasc" id="sortasc">Sort A->Z</button>
+        <button class="sortdesc" id="sortdesc">Sort Z->A</button>
+        <button class="sortbymarks" id="sortbymarks">Sort By Marks</button>
+        <button class="sortbypassing" id="sortbypassing">Sort By Passing</button>
+        <button class="sortbyclass" id="sortbyclass">Sort By Class</button>
+        <button class="sortbygender" id="sortbygender">Sort By Gender</button>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <colgroup>
+              <col style="width: 20%">
+              <col style="width: 40%">
+              <col style="width: 10%">
+              <col style="width: 10%">
+              <col style="width: 10%">
+              <col style="width: 10%">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Passing</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Male</td>
+                <td>10</td>
+                <td>80%</td>
+                <td>Yes</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jane</td>
+                <td>Female</td>
+                <td>12</td>
+                <td>90%</td>
+                <td>Yes</td>
+                <td>jane@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
